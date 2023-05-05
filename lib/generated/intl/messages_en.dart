@@ -68,7 +68,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "collectionLike": MessageLookupByLibrary.simpleMessage("Collections"),
         "confirm": MessageLookupByLibrary.simpleMessage("Confirm"),
         "copyRightOverlay": MessageLookupByLibrary.simpleMessage(
-            "Only used for personal study and research, commercial and illegal purposes are prohibited"),
+            // "Only used for personal study and research, commercial and illegal purposes are prohibited"
+            ""),
         "createdDate": m2,
         "createdSongList":
             MessageLookupByLibrary.simpleMessage("Created Song List"),

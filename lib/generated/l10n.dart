@@ -335,7 +335,8 @@ class S {
   /// `Only used for personal study and research, commercial and illegal purposes are prohibited`
   String get copyRightOverlay {
     return Intl.message(
-      'Only used for personal study and research, commercial and illegal purposes are prohibited',
+      '',
+      // 'Only used for personal study and research, commercial and illegal purposes are prohibited',
       name: 'copyRightOverlay',
       desc: '',
       args: [],
