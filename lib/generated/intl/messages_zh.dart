@@ -63,9 +63,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "cloudMusicUsage": MessageLookupByLibrary.simpleMessage("云盘容量"),
         "collectionLike": MessageLookupByLibrary.simpleMessage("已购"),
         "confirm": MessageLookupByLibrary.simpleMessage("确定"),
-        "copyRightOverlay": MessageLookupByLibrary.simpleMessage(
-            // "只用作个人学习研究，禁止用于商业及非法用途"
-            ""),
+        "copyRightOverlay":
+            MessageLookupByLibrary.simpleMessage("只用作个人学习研究，禁止用于商业及非法用途"),
         "createdDate": m2,
         "createdSongList": MessageLookupByLibrary.simpleMessage("创建的歌单"),
         "currentPlaying": MessageLookupByLibrary.simpleMessage("当前播放"),

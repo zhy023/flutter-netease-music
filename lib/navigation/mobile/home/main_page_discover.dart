@@ -27,10 +27,10 @@ class CloudPageState extends State<MainPageDiscover>
     super.build(context);
     return ListView(
       children: <Widget>[
-        _NavigationLine(),
-        _Header('推荐歌单', () {}),
+        // _NavigationLine(),
+        _Header('诗歌分类', () {}),
         _SectionPlaylist(),
-        _Header('最新音乐', () {}),
+        _Header('最新', () {}),
         _SectionNewSongs(),
       ],
     );
@@ -155,7 +155,7 @@ class _SectionPlaylist extends ConsumerWidget {
               'can not layout playlist item in infinite width container.',
             );
             final parentWidth = constraints.maxWidth - 8;
-            const count = /* false ? 6 : */ 3;
+            const count = 3;
             final width = (parentWidth / count).clamp(80.0, 200.0);
             final spacing = (parentWidth - width * count) / (count + 1);
             return Padding(

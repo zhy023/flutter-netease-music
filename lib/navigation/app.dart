@@ -33,7 +33,7 @@ class QuietApp extends ConsumerWidget {
     }
     return GlobalHotkeys(
       child: MaterialApp(
-        title: 'Quiet',
+        title: 'Potter',
         supportedLocales: S.delegate.supportedLocales,
         localizationsDelegates: const [
           S.delegate,
@@ -51,7 +51,8 @@ class QuietApp extends ConsumerWidget {
         builder: (context, child) {
           return AppTheme(
             child: AppPlatformConfiguration(
-              child: CopyRightOverlay(child: child),
+              // child: CopyRightOverlay(child: child),
+              child: Container(child: child),
             ),
           );
         },

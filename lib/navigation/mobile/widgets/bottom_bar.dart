@@ -34,13 +34,15 @@ class AnimatedAppBottomBar extends HookConsumerWidget {
     final NavigationTarget currentTab;
 
     final bool hideNavigationBar;
+
     if (!kMobileHomeTabs.contains(currentRoute.runtimeType)) {
-      currentTab = lastHomeTarget.value ?? NavigationTargetLibrary();
+      currentTab = lastHomeTarget.value ?? NavigationTargetDiscover();
       hideNavigationBar = true;
     } else {
       currentTab = currentRoute;
       hideNavigationBar = false;
     }
+
     lastHomeTarget.value = currentTab;
 
     assert(kMobileHomeTabs.contains(currentTab.runtimeType));
@@ -285,6 +287,8 @@ class HomeBottomNavigationBar extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    print(currentTab);
+
     return BottomNavigationBar(
       currentIndex: kMobileHomeTabs.indexWhere(
         (element) => element == currentTab.runtimeType,

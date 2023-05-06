@@ -60,9 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cloudMusicUsage": MessageLookupByLibrary.simpleMessage("Uso da nuvem"),
         "collectionLike": MessageLookupByLibrary.simpleMessage("Coleções"),
         "copyRightOverlay": MessageLookupByLibrary.simpleMessage(
-          // "Usado apenas para estudo e pesquisa pessoal, usos comerciais e ilegais são proibidos",
-          "",
-        ),
+            "Usado apenas para estudo e pesquisa pessoal, usos comerciais e ilegais são proibidos"),
         "createdDate": m2,
         "createdSongList":
             MessageLookupByLibrary.simpleMessage("Lista de músicas criadas"),
