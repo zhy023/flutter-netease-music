@@ -28,11 +28,11 @@ class PageSettings extends StatelessWidget {
             children: const [ThemeSwitchRadios()],
           ),
           const Divider(height: 20),
-          const _SettingGroup(
-            children: [CopyRightOverlayCheckBox()],
-          ),
-          if (!kReleaseMode) const _DebugNavigationPlatformSetting(),
-          const Divider(height: 20),
+          // const _SettingGroup(
+          //   children: [CopyRightOverlayCheckBox()],
+          // ),
+          // if (!kReleaseMode) const _DebugNavigationPlatformSetting(),
+          // const Divider(height: 20),
           _SettingGroup(
             children: [
               ListTile(
@@ -44,7 +44,7 @@ class PageSettings extends StatelessWidget {
                       return AboutDialog(
                         applicationIcon:
                             Image.asset('assets/ic_launcher_round.png'),
-                        applicationVersion: '0.3-alpha',
+                        applicationVersion: '1.0.1',
                         applicationLegalese: context.strings.copyRightOverlay,
                       );
                     },

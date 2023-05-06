@@ -287,8 +287,6 @@ class HomeBottomNavigationBar extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    print(currentTab);
-
     return BottomNavigationBar(
       currentIndex: kMobileHomeTabs.indexWhere(
         (element) => element == currentTab.runtimeType,
