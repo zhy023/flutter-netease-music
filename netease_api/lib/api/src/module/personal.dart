@@ -34,6 +34,6 @@ Handler personalized_privatecontent = (query, cookie) {
 
 // 推荐歌单
 Handler personalized = (query, cookie) {
-  return request('POST', '${Doma.tencent}/personalized/playlist', {},
+  return request('POST', '${Doma.dev}/personalized/playlist', {},
       crypto: Crypto.weapi, cookies: cookie);
 };

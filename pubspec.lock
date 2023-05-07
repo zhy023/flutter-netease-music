@@ -907,6 +907,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.0"
+  tencentcloud_cos_sdk_plugin:
+    dependency: "direct main"
+    description:
+      name: tencentcloud_cos_sdk_plugin
+      sha256: "33abf81cdd98a55e46b9aa2b38b17fd348382d164e73d3cc96e906c75129a4b6"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
   term_glyph:
     dependency: transitive
     description:
