@@ -95,6 +95,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "loading": MessageLookupByLibrary.simpleMessage("加载中..."),
         "localMusic": MessageLookupByLibrary.simpleMessage("本地音乐"),
         "login": MessageLookupByLibrary.simpleMessage("立即登录"),
+        "dev": MessageLookupByLibrary.simpleMessage("开发中，请稍候..."),
         "loginViaQrCode": MessageLookupByLibrary.simpleMessage("扫码登录"),
         "loginViaQrCodeWaitingConfirmDescription":
             MessageLookupByLibrary.simpleMessage("在网易云音乐手机端确认登录"),

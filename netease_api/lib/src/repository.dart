@@ -5,8 +5,8 @@ import 'dart:io';
 import 'package:async/async.dart' show Result, ErrorResult;
 import 'package:cookie_jar/cookie_jar.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:netease_music_api/netease_cloud_music.dart' as api;
 
+import '../api/netease_cloud_music.dart' as api;
 import '../netease_api.dart';
 
 ///enum for NeteaseRepository.search param type

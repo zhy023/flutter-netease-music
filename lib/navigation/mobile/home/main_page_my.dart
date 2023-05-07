@@ -121,12 +121,13 @@ class _NotLogin extends ConsumerWidget {
           ),
         ),
         const SizedBox(height: 24),
-        TextButton(
-          onPressed: () => ref
-              .read(navigatorProvider.notifier)
-              .navigate(NavigationTargetLogin()),
-          child: Text(context.strings.login),
-        ),
+        // TextButton(
+        //   onPressed: () => ref
+        //       .read(navigatorProvider.notifier)
+        //       .navigate(NavigationTargetLogin()),
+        //   child: Text(context.strings.login),
+        // ),
+        Text(context.strings.dev),
         const Spacer(),
       ],
     );

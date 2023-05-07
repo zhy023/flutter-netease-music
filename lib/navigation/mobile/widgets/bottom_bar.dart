@@ -29,6 +29,7 @@ class AnimatedAppBottomBar extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final currentRoute =
         ref.watch(navigatorProvider.select((value) => value.current));
+
     final lastHomeTarget = useRef<NavigationTarget?>(null);
 
     final NavigationTarget currentTab;
@@ -67,6 +68,7 @@ class AnimatedAppBottomBar extends HookConsumerWidget {
     final double height;
     final double navigationBarBottom;
     final double playerBarBottom;
+
     if (hidePlayerBar && hideNavigationBar) {
       height = 0;
       navigationBarBottom = -playerBarHeight - navigationBarHeight;
@@ -84,6 +86,10 @@ class AnimatedAppBottomBar extends HookConsumerWidget {
       playerBarBottom = navigationBarHeight + bottomPadding;
       height = playerBarHeight + navigationBarHeight + bottomPadding;
     }
+
+    print('-------------------------------');
+    print(currentTab);
+    print(currentRoute);
 
     return Stack(
       children: [

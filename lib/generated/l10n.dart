@@ -160,6 +160,16 @@ class S {
     );
   }
 
+  /// `Dev`
+  String get dev {
+    return Intl.message(
+      'Dev',
+      name: 'dev',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Login to discover your playlists.`
   String get playlistLoginDescription {
     return Intl.message(

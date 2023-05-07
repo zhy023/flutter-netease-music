@@ -23,7 +23,7 @@ class PageHome extends StatelessWidget {
         break;
       default:
         assert(false, 'unsupported tab: $selectedTab');
-        body = const MainPageMy();
+        body = const MainPageDiscover();
         break;
     }
     return Scaffold(

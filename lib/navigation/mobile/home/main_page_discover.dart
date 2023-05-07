@@ -240,7 +240,10 @@ class _PlayListItemView extends ConsumerWidget {
                 borderRadius: const BorderRadius.all(Radius.circular(6)),
                 child: AspectRatio(
                   aspectRatio: 1,
-                  child: AppImage(url: playlist.picUrl),
+                  child: Container(
+                    color: Colors.grey,
+                    child: AppImage(url: playlist.picUrl),
+                  ),
                 ),
               ),
             ),
