@@ -17,7 +17,7 @@ Handler dj_category_excludehot = (query, cookie) {
 //dj推荐类型
 Handler dj_category_recommend = (query, cookie) {
   return request(
-      'POST', 'http://music.163.com/weapi/djradio/category/recommend', const {},
+      'POST', 'http://music.163.com/weapi/dj/category/recommend', const {},
       crypto: Crypto.weapi, cookies: cookie);
 };
 

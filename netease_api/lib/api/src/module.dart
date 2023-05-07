@@ -10,6 +10,7 @@ import 'package:encrypt/encrypt.dart';
 import 'answer.dart';
 import 'util/request.dart';
 import 'util/utils.dart';
+import 'domain.dart';
 
 part 'module/album.dart';
 part 'module/artist.dart';
