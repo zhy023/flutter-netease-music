@@ -10,7 +10,7 @@
     <application
         android:name=".AppContext"
         android:icon="@mipmap/ic_launcher"
-        android:label="陶匠"
+        android:label="泉水叮咚"
         android:networkSecurityConfig="@xml/network_security_config"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning"
         tools:targetApi="n">
